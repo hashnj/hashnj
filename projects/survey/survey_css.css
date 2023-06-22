@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #414141;
+}
+
+.nav li{
+    list-style:none;
+    padding: 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color:aquamarine;
+    padding:20px
+}
+.nav{
+    position: relative;
+    top: 0;
+    
+    width:100%;
+    display:flex;
+    background-color: #414141;
+    color:aquamarine;
+    align-items: center;
+    text-transform: capitalize;
+}
+.nav li a:hover{
+    background-color: aquamarine;
+    color:#414141;
+}
+
+.nav li a:active{
+    background-color: rgb(183, 248, 226);
+    color:#414141;
+}
+.logo{
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.sec1{
+    position: relative;
+    display: block;
+    height:100vh;
+    width:100vw;
+    
+    background-image:linear-gradient(to right bottom ,rgba(234, 246, 242, 0.552),rgb(3, 120, 81)),url(https://myce.wiki/wp-content/images_posts/2016/10/computer-670185_1920-670x454.png);
+    clip-path: polygon(0 0,0 100%, 100% 85% , 100% 0 );
+    background-size: cover;
+    background-position: center;
+    
+}
+.landing{
+    position:relative;
+    font-size: 20px;
+    max-width:55%;
+    margin-top: 35vh;
+    margin-left:70px ;
+    padding:40px;
+}
+.sec2{
+    width:50vw;
+    margin:20px;
+    margin-left:25vw;
+    position: relative;
+    display:flex;
+    
+    border-radius:7px;
+    justify-content: center;
+    background-color: rgba(102, 101, 101, 0.35);
+    
+}
+.sec2 form h1{
+    padding:50px 90px;
+    background-image:linear-gradient(to right,white,rgb(12, 118, 81)) ;
+    -webkit-background-clip: text;
+    color:transparent;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width:100%;
+    font-size: 20px;
+}
+
+input:not([type=checkbox]){
+    background-color: #414141;
+    border: none;
+    border-radius: 5px;
+    width:290px;
+    height: 35px;
+    padding:5px 30px;
+    margin:10px;
+}
+input[type=submit]{
+    width:90px;
+    height:45px;
+    padding:10px 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+input[type=submit]:hover{
+    background-color: aquamarine;
+    color: #414141;
+    transform: translateY(-5px);
+}
+input[type=checkbox]{
+    width:24px;
+    padding:20px;
+}
+select{
+    background-color: #414141;
+    border-radius:5px;
+    padding:10px 15px;
+}
+.check{
+    display:grid;
+    width:45%;
+    grid-template-columns: auto auto;
+    margin:5px 15px;
+}
+textarea{
+    width:70%;
+    height:100px;
+    background-color: #414141;
+}
+textarea::placeholder{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+@media screen and (max-width:800px) {
+    .check{
+        width:70%;
+    }
+}
+@media screen and (max-width:600px){
+    .sec2{
+        width:100vw;
+        margin:10px 0;
+    }
+}
+label{
+    color:aliceblue;
+}
+.m{
+    display: flex;
+    background-color: #292828;
+    color:antiquewhite;
+    font:80%;
+    padding:30px;
+    width:100vw;
+    justify-content: center;
+}
+.m ul li{
+    list-style: none;
+}
+.m ul li a{
+    color:antiquewhite;
+    text-decoration: none;
+
+}
+.l{
+    padding-right: 20vw;
+    border-right: 1px solid antiquewhite;
+}
+.r {
+    padding-left:20vw;    
+}
