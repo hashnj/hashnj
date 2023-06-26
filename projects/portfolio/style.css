@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    overflow-x: hidden;
+}
+
+body{
+   width:100%; 
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: absolute;
+    padding:20px;
+    display: flex;
+    -webkit-text-stroke: 1px black;
+    color: aliceblue;
+    font-size: 26px;
+    background-color:#4947474d ;
+    width:100%;
+    top: 0;
+    left: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+.top{
+    margin-left:8vw;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    background-color: aliceblue;
+    background-image: linear-gradient(to left , blue,rgba(0, 0, 255, 0.467),rgba(0, 0, 255, 0.44) ,rgba(0, 0, 255, 0.418) ,rgba(255, 255, 255, 0.599),rgba(255, 255, 255, 0.615),rgba(0, 0, 255, 0.588) ), url("https://surry.edu/uploads/images/_heroImage/computer-programmer.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    /* clip-path: polygon(0 0, 100% 0,100% 78%,0 99%); */
+    border-radius: 5px;
+    /* border-bottom: 25px solid rgba(0, 0, 0, 0.585); */
+}
+.img{
+    filter: blur(1px);
+    overflow: hidden;
+    padding:30vh 5vw;
+    width:50vw;
+}
+img{
+    width:120%;
+}
+
+
+.hero{
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+hr{
+    width:30vw;
+}
+.p{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    width:50%;
+    position:relative;
+    left:10%;
+    color: aliceblue;
+}
+.p:hover{
+    text-decoration: underline;
+}
+span{
+    cursor:context-menu;
+    font-size: 20px;
+}
+.p span:hover{
+    font-size: 30px;
+}
+
+.hero h1{
+    padding: 20px;
+}
+.btn1,.btn2{
+    position: relative;
+    margin:4px;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 9px;
+    background-color: #56565673;
+    color:aliceblue
+}
+.btn1:hover,.btn2:hover{
+    transform: translateY(-5px);
+    padding:10px 15px;
+    font-size: 18px;
+}
+
+.next{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom,rgba(137, 149, 195, 0.447),#5e73e8);
+    
+}
+
+form{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 12px;
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(to bottom , rgba(0, 0, 0, 0.515),  rgba(92, 89, 89, 0.21) );
+    padding:12px;
+    /* box-shadow: 12px 6px 40px rgba(0, 0, 0, 0.533); */
+}
+h1,h2{
+    -webkit-text-stroke: 1px white;
+}
+form h1{
+    -webkit-text-stroke: 1px black;
+    color: aliceblue;
+    padding:20px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60vw;
+    height:87vh;
+    left:20vw;
+    margin:60px 0;
+}
+
+input,textarea{
+    overflow: hidden;
+    background-color: transparent;
+    margin:20px;
+    color: aliceblue;
+    background-color: rgba(45, 44, 44, 0.374);
+    border:1px solid rgba(255, 255, 255, 0.278); 
+    border-radius: 50px;
+    padding:12px 15px;
+}
+input:not([type=button]),textarea{
+    width:60%;
+    padding:12px 15px;
+    
+}
+textarea{
+    overflow-y: scroll;
+    border-radius: 15px;
+}
+textarea::-webkit-scrollbar{
+    display:none; 
+    
+}
+input::placeholder,textarea::placeholder{
+    color: aliceblue;
+}
+p, .message{
+    color: aliceblue;
+    padding:22px;
+    
+}
+.message{
+    padding:2px;
+}
+input[type=button]{
+    padding: 15px;
+    color:aliceblue;
+    border-radius: 50px;
+}
+footer{
+    background-color: darkblue;
+}
+.bottom{
+    
+    display: flex;
+    width: 100%;
+}
+.l,.r{
+    display: flex;
+    text-transform: capitalize;
+    width:50%;
+    padding:20px;
+    color: aliceblue;
+}
+.l{
+    justify-content: center;
+    border-right: 4px solid rgb(0, 0, 225);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:80px;
+
+}
+.sec{
+    display: grid;
+    margin:60px;
+    grid-template-columns:50% 50% ;
+    height: 110vh;
+    column-gap: 2vw;
+    width:100%;
+}
+.lsec,.rsec{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    height:85%;
+    width:35vh;
+    margin-top:30px;
+    margin-left:30px;
+    padding: 10px;
+    background-color: #67646459;
+    border-radius: 7px;
+    box-shadow: 12px 10px 12px rgba(0, 0, 0, 0.481);
+}
+.lsec:hover,.rsec:hover{
+    transform: translate(-6px,-6px);
+}
+h2{
+    font-size:30px;
+    padding-left:12px;
+}
+.about h1{
+    text-decoration: underline;
+    text-decoration-color: rgb(107, 106, 106);
+}
