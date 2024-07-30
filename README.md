@@ -42,6 +42,10 @@
   <img src="https://skillicons.dev/icons?i=mongo,mysql,postgres&theme=dark" />
 </p>
 
+
+![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=vue-dark&hide_border=true)
+
+
 ### 🛠️ &nbsp;Tools:
 
 <p align="center">
