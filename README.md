@@ -43,7 +43,6 @@
 </p>
 
 
-![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=vue-dark&hide_border=true)
 
 
 ### 🛠️ &nbsp;Tools:
@@ -54,3 +53,8 @@
 
 <br/>
 <br/>
+
+### 🛠️ &nbsp;Stats:
+
+![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=vue-dark&hide_border=true)
+
