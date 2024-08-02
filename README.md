@@ -56,5 +56,5 @@
 
 ### 🛠️ &nbsp;Stats:
 
-![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=midnight-purple&hide_border=false)   ![hashnj's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hashnj&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact)
+![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=midnight-purple&hide_border=false)   ![hashnj's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hashnj&theme=midnight-purple&show_icons=true&hide_border=false)
 
