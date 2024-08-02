@@ -56,5 +56,5 @@
 
 ### 🛠️ &nbsp;Stats:
 
-![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=vue-dark&hide_border=true)
+![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=midnight-purple&hide_border=false)
 
