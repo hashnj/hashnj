@@ -11,6 +11,14 @@
 <div>- 🌱 I’m currently learning next.js,three.js and ruby.</div>
 <div>- 💞️ I’m looking to collaborate on any project related to MERN full-stack web devlopment.</div>
 <div>- 📫 To reach me: mail @ joshinikhilesh46@gmail.com </div>
+
+
+### 🛠️ &nbsp;Stats:
+
+![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=midnight-purple&hide_border=true)  
+<br />
+![hashnj's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hashnj&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact)
+  
 </div>
 
 ## ⚡️ Tech-Stack
@@ -54,9 +62,5 @@
 <br/>
 <br/>
 
-### 🛠️ &nbsp;Stats:
 
-![hashnj's Streak](https://github-readme-streak-stats.herokuapp.com/?user=hashnj&theme=midnight-purple&hide_border=true)  
-<br />
-![hashnj's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hashnj&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact)
 
