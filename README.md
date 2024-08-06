@@ -8,7 +8,7 @@
 <div >
   <h2>ABout Me</h2>
 <div>- 👀 I’m interested in web devlopment and web design.</div>
-<div>- 🌱 I’m currently learning next.js,three.js and ruby.</div>
+<div>- 🌱 I’m currently improving my stack and learning next.js,three.js and ruby.</div>
 <div>-  I’m looking to collaborate on any project related to MERN full-stack web devlopment.</div>
 <div>- 📫 To reach me: mail @ joshinikhilesh46@gmail.com </div>
 
