@@ -61,7 +61,7 @@
 
 |Leetcode|
 |:--------:|
-| ![LeetCode](assets/metrics.plugin.code.lines.svg) |
+| ![LeetCode](<img src="assets/metrics.plugin.code.lines.svg" />) |
 
 <br/>
 <br/>
