@@ -60,7 +60,7 @@
 </p>
 
 
-(assets/metrics.plugin.code.lines.svg)
+| ![Lines of Code & Base Introduction](assets/metrics.plugin.code.lines.svg) |
 
 <br/>
 <br/>
