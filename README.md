@@ -59,8 +59,8 @@
   <img src="https://skillicons.dev/icons?i=git,github,figma,vscode,bash&theme=dark" />
 </p>
 
-
-| ![Lines of Code & Base Introduction](assets/metrics.plugin.code.lines.svg) |
+|Leetcode|
+| ![LeetCode](assets/metrics.plugin.code.lines.svg) |
 
 <br/>
 <br/>
