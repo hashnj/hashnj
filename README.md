@@ -60,6 +60,7 @@
 </p>
 
 |Leetcode|
+|:--------:|
 | ![LeetCode](assets/metrics.plugin.code.lines.svg) |
 
 <br/>
