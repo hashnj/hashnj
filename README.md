@@ -59,6 +59,17 @@
   <img src="https://skillicons.dev/icons?i=git,github,figma,vscode,bash&theme=dark" />
 </p>
 
+
+name: LeetCode
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.leetcode.svg
+  token: NOT_NEEDED
+  base: ""
+  plugin_leetcode: yes
+  plugin_leetcode_sections: solved, skills, recent
+
+
 <br/>
 <br/>
 
