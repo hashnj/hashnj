@@ -60,15 +60,7 @@
 </p>
 
 
-name: LeetCode
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.leetcode.svg
-  token: NOT_NEEDED
-  base: ""
-  plugin_leetcode: yes
-  plugin_leetcode_sections: solved, skills, recent
-
+(assets/metrics.plugin.code.lines.svg)
 
 <br/>
 <br/>
