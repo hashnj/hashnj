@@ -1,15 +1,12 @@
-- name: Metrics embed
-  uses: lowlighter/metrics@v3.34
-  with:
-  filename: assets/metrics.plugin.leetcode.svg
-    plugin_leetcode: yes
-    plugin_leetcode_user: hashnj
-    plugin_leetcode_sections: solved, skills, recent
-    
-    # plugin_leetcode_limit_skills: # optional, default is <default-value>
-    # # Ignored skills
-    # plugin_leetcode_ignored_skills: # optional, default is <default-value>
-    # # Display limit (recent)
-    # plugin_leetcode_limit_recent: # optional, default is <default-value>
-    # # Enable steam plugin
-
+on:
+   # https://github.com/lowlighter/metrics/blob/master/source/plugins/lines/README.md
+  Leetcode:
+      runs-on: ubuntu-latest
+      steps:
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills, recent
